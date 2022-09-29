@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{352C14D9-4A52-C0ED-41F2-F5B0FEAC5180}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "AwsTutorial",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "awsSDK",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/eee4bef24c9d429887ddcc107a5a9b4d"
+		},
+		{
+			"Name": "BlueprintJson",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/f837e4835fbc434a853fe1ead2410b84"
+		}
+	]
+}
